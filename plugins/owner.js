@@ -9,10 +9,10 @@ if (Config.WORKTYPE == 'private') {
         if (message.jid === '15369524516-1612300121@g.us') {
 
             return;
-        }
+        } 
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*ʀᴜᴅʜʀᴀ ʙʏ ᴘʀɪɴᴄᴇ ʀᴜᴅʜ*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*ᴍᴀᴅᴇ ʙʏ ᴅᴇᴠᴀɴ ꜱᴇʀ*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n---------------------', MessageType.text);
@@ -30,7 +30,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*ʀᴜᴅʜʀᴀ ʙʏ ᴘʀɪɴᴄᴇ ʀᴜᴅʜ*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*ᴍᴀᴅᴇ ʙy ᴅᴇᴠᴀɴ ꜱᴇʀ*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n--------------------', MessageType.text);
